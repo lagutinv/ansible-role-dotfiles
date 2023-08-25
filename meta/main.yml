@@ -1,16 +1,16 @@
 # meta/main.yml
 
 galaxy_info:
-  author: Vitaly Lagutin
+  author: vl
   description: Install dotfiles
-  min_ansible_version: 1.4
+  min_ansible_version: 2.0.0
   license: MIT
   platforms:
   - name: Ubuntu
     versions:
     - all
-  categories:
-  - system
+#  categories:
+#  - system
 
 # dependencies:
 #   - {role: geerlingguy.git, tags: git }
